@@ -13,6 +13,10 @@ body {
     
     }
 
+.navbar > form {
+    display: inline-block;
+}
+
 .navLinks {
     margin: 10px;
     font-size: 16px;
@@ -23,15 +27,38 @@ body {
 .container {
     display: flex;
     width: 60%;
-    margin: 20px auto;
-    
+    margin: 0 auto;
+    margin-top:20px;
+    /* border: 1px solid red; */
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .container > div {
     flex: 1 1 40%;
     background-color: white;
     padding: 10px 20px;
-    margin: 10px;
+    
 }
 
+.heading {
+    width: 60%;
+    background-color: white;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pagination {
+    width: 60%;
+    margin: 10px auto;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pagination > button {
+    font-size: 16px;
+    /* margin: 5px; */
+    margin: 0 auto;
+}
